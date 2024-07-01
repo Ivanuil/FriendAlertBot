@@ -25,15 +25,6 @@ public class PlatformIntegrationConfiguration {
     @Bean
     public List<Integer> clusterIgnoreList() {
         return Arrays.asList(
-                29990, // Tranquility
-                36758, // Ushakov
-                36464, // Carbon
-                29992, // Clarity
-                36621, // Ayar
-                36623, // Tuskul
-                29984, // Infinity
-                36760, // Tkachenko
-                36622, // Erchim
                 36736, // ulugbek
                 36799, // Dune
                 36735  // register

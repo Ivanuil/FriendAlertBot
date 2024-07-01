@@ -44,7 +44,7 @@
                                  referencedColumnNames="id"/>
 
         <createTable tableName="chat">
-            <column name="id" type="INTEGER">
+            <column name="id" type="BIGINT">
                 <constraints primaryKey="true"/>
             </column>
             <column name="telegram_username" type="VARCHAR">

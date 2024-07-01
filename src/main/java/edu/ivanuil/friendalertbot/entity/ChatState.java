@@ -1,4 +1,4 @@
-package edu.ivanuil.friendalertbot.service;
+package edu.ivanuil.friendalertbot.entity;
 
 public enum ChatState {
 

@@ -22,4 +22,9 @@ public class CampusEntity {
     @Column(name = "name", length = Integer.MAX_VALUE)
     private String name;
 
+    @Override
+    public String toString() {
+        return "Campus{ id=" + id + ", name=" + name + "}";
+    }
+
 }

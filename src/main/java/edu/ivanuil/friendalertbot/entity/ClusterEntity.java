@@ -14,7 +14,7 @@ public class ClusterEntity {
     @Column(name = "id", nullable = false)
     private Integer id;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "campus")
     private CampusEntity campus;
 

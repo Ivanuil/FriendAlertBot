@@ -20,7 +20,7 @@ public class SubscriptionEntity {
     @Column(name = "id", nullable = false)
     private Integer id;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "subscriber_telegram", referencedColumnName = "telegram_username")
     private ChatEntity subscriberChat;
 

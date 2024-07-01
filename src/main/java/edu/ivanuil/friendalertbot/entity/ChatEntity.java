@@ -1,6 +1,5 @@
 package edu.ivanuil.friendalertbot.entity;
 
-import edu.ivanuil.friendalertbot.service.ChatState;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

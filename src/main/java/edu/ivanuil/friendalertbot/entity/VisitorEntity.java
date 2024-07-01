@@ -16,7 +16,7 @@ public class VisitorEntity {
     @Column(name = "username", nullable = false, length = Integer.MAX_VALUE)
     private String login;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "cluster")
     private ClusterEntity cluster;
 
@@ -38,4 +38,8 @@ public class VisitorEntity {
         return Objects.hashCode(login);
     }
 
+    @Override
+    public String toString() {
+        return login;
+    }
 }
